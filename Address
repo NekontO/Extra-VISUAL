@@ -1,0 +1,11 @@
+// CShell.dll //
+#define dw_pWeaponMgr 0x185E43C
+#define dw_pCLTPlayerClient 0xB1BAA0
+#define dw_pLTClientShell 0xB038F4
+#define dw_pLTModel 0xB00DEC
+
+// ESP //
+#define dwCPlayerStart  0x77E4
+#define MEOffset  0x77EC
+#define dwCPlayerSize  0x810
+#define CLTPlayerClientOffset  0x70
