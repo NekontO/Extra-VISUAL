@@ -1,0 +1,38 @@
+struct Transform
+{
+	D3DXVECTOR3 Pos;
+	char Spacer[0x100];
+};
+
+struct cObject
+{
+public:
+	char Spacer[4];
+	D3DXVECTOR3 Body;
+	D3DXVECTOR3 Foot;
+	D3DXVECTOR3 Head;
+};
+
+struct CPlayer
+{ 
+	char Spacer00[4];
+	cObject* Object;
+	char ClientID;
+	char Team;     
+	char Name[12];
+	char Spacer01[2];
+	int SHIT;
+	int PlayerSlotTeam;
+	int unkstruct1; 
+	bool Has_C4; 
+	int State;
+	int Rank;
+	int unkstruct2; 
+	int unkstruct3;
+	short Health;
+	short Kills;
+	__int32 Deaths;
+	__int32 HeadShots;
+	__int32 TeamID;
+	__int32 Ping;
+};
